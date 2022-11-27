@@ -1,0 +1,85 @@
+<!-- Khai báo phiên bản của html (ver 5) -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <!-- SEO: Hỗ trợ cho công cụ tìm kiêm -->
+        <meta name="description" content="demo html">
+        <title>Demo HTML</title>
+    </head>
+    <body>
+        <h1 style="color: pink; background-color:blueviolet; text-align: center;" >Cybersoft</h1> 
+        <h2>Cybersoft</h2>
+        <h3>Cybersoft</h3>
+        <h4>Cybersoft</h4>
+        <h5>Cybersoft</h5>
+        <h6>Cybersoft</h6>
+
+        <!-- Liên kết ngoại -->
+        <!--a: thẻ giúp di chuyển qua những trang web khác; href: nơi điền đường dẫn đến web site muốn di chuyển -->
+        <a href="./contact/contact.html" target="_blank"> Đi tới trang contact </a>                                             
+        <a href="https://cybersoft.edu.vn/bootcamp-lap-trinh-fullstack-javascript-tu-zero-co-viec-lam/"> Đi tới trang Cybersoft </a>  
+        
+        <!-- Liên kết nội -->
+        <a href=""> Đi tới Dog Image</a>
+
+
+        <!-- Đơn vị tuyệt đối -->
+        <!-- px -->
+        <hr style="height: 5px; width: 900px; " noshade>            <!--Horizontal rules: Thuộc tính align : canh đường kẻ ngang so với trang web; width; size, noshade -->
+
+        <!-- Tương đối -->
+        <!-- % -->
+        <hr style="height: 5px; width: 50%; " noshade>              <!--%: auto scale tỉ lệ dựa vào thẻ cha gần nhất mà mình đang xét -->
+
+        <!-- lorem -->                                              <!--lorem: 1 đoạn văn bản bất kỳ -->
+        <p style="color: blue;">                                  <!--p: Paragraph -->
+            <span style="color: red;">Cybersoft</span>            <!--span: Bọc lại thiết kế riêng cụm mong muốn -->
+            <b> Đây là văn bản in đậm. </b>                         <!--b: Bold -->
+            <i> Đây là văn bản in nghiêng. </i>                     <!--i: Italic -->
+            <u> Đây là văn bản ghạch chân. </u>                     <!--u: Underline -->
+            <b><i> Đây là văn bản in đậm và nghiêng </i></b>        <!--b & i: Bold & Italic-->
+            <br> Đây là văn bản xuống dòng.                         <!--Break: Xuống dòng -->
+        </p>
+
+        <!-- Thẻ danh sách không có thứ tự -->
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+        <ul type="circle">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+        <ul type="square">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+
+        <!-- Thẻ danh sách có thứ tự -->
+        <ol>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 4</li>
+            <li>Item 4</li>
+        </ol>
+        <ol type="a">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ol>
+        <ol type="i">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ol>
+
+        <h2 id="hinhDog">Hình ảnh</h2>
+        <!-- Đường dẫn tương đối -->
+        <img style="width: 400px; border: 3px solid black;" src="./img/watermark_san_pham.png" alt="keycaps">
+
+    </body>
+</html>
