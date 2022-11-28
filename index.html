@@ -17,11 +17,11 @@
 
         <!-- Liên kết ngoại -->
         <!--a: thẻ giúp di chuyển qua những trang web khác; href: nơi điền đường dẫn đến web site muốn di chuyển -->
-        <a href="./contact/contact.html" target="_blank"> Đi tới trang contact </a>                                             
-        <a href="https://cybersoft.edu.vn/bootcamp-lap-trinh-fullstack-javascript-tu-zero-co-viec-lam/"> Đi tới trang Cybersoft </a>  
+        <a href="./contact/contact.html" target="_blank"> Đi tới trang contact </a><br>                                            
+        <a href="https://cybersoft.edu.vn/bootcamp-lap-trinh-fullstack-javascript-tu-zero-co-viec-lam/"> Đi tới trang Cybersoft </a><br>
         
         <!-- Liên kết nội -->
-        <a href="#hinhDog"> Đi tới Dog Image</a>
+        <a href="#hinhDog"> Đi tới Dog Image</a><br>
 
         <!-- Liên kết mail -->
         <a href="mailto:nguyenductan@gmail.com">nguyenductan@gmail.com</a>
@@ -82,9 +82,41 @@
             <li>Item 3</li>
         </ol>
 
+
         <h2 id="hinhDog">Hình ảnh</h2>
         <!-- Đường dẫn tương đối -->
         <img style="width: 400px; border: 3px solid black;" src="./img/watermark_san_pham.png" alt="keycaps">
+
+
+        <!-- table : Khởi tạo 1 bảng -->
+        <!-- tr : khởi tạo 1 dòng trong bảng. Thẻ con của <table> -->
+        <!-- th : Khởi tạo 1 ô tiêu đề. thẻ con <tr> -->
+        <!-- tr : Khởi tạo 1 ô. thẻ con <tr> -->
+        <!-- cellspacing: khoản cách giữa các ô -->
+        <!-- cellpadding: khoản cách chữ ở trong ô đối với viền ô  -->
+        <table border="1px" style="height: 200px; width: 400px;" cellspacing="10px" cellpadding="20px" align="center">
+            <tr style="color: chocolate;  background:  #000;">
+                <th rowspan="3" colspan="2" style="background-image: url(./img/lC22izJ.png);">History</th>    <!-- rowspan = 3 : merge 3 dòng lại thành 1 ô -->
+                <th>Name</th>
+                <th>Marks</th>
+            </tr>
+            <tr>
+                <td>Tony</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>Peter</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>item 1</td>
+                <td>item 2</td>
+                <td>item 3</td>
+                <td>item 4</td>
+            </tr>
+        </table>
+
+
 
     </body>
 </html>
